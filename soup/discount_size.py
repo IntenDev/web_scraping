@@ -1,6 +1,6 @@
 from bs4 import BeautifulSoup as bs
 import requests
-import lxml
+
 url = 'https://parsinger.ru/html/hdd/4/4_1.html'
 response = requests.get(url=url)
 response.encoding = 'utf-8'
